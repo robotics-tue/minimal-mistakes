@@ -24,9 +24,9 @@
         {% if nav.title == 'Repositories' %}
           {% for repo in site.github.public_repositories %}
             <!-- if name doesn't contain .github.io -->
-            {% unless repo.name contains 'robotics-tue.github.io' %}
-              <li><a href="{{ repo.html_url }}" class="">{{ repo.name }} </a></li>
-              <li><a href="{{ repo.wiki_url }}" class="">{{ repo.wiki_url }} </a></li>
+            {% unless repo.name contains '3.github.io' %}
+              <li><a href="{{ repo.html_url }}" class="nav__sub-title_child">{{ repo.name }} </a></li>
+              <li><a href="{{ repo.wiki_url }}" class="nav__sub-title_child">{{ repo.wiki_url }} </a></li>
             {% endunless %}
 
           {% endfor %}
