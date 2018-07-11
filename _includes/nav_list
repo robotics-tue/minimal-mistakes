@@ -1,35 +1,12 @@
 {% assign navigation = site.data.navigation[include.nav] %}
-{% assign posts = site.data.posts[include.nav] %}
 
 <nav class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
-
-    {% for repo in site.github.public_repositories %}
-      <li> <a href="http://google.com"><span class="nav__sub-title">{{ repo.name }}</span></a>
-<!--       {% comment %} internal/external URL check {% endcomment %}
-      {% if child.url contains "://" %}
-        {% assign child_url = child.url %}
-      {% else %}
-        {% assign child_url = child.url | relative_url %}
-      {% endif %}
-
-      {% comment %} set "active" class on current page {% endcomment %}
-      {% if child.url == page.url %}
-        {% assign active = "active" %}
-      {% else %}
-        {% assign active = "" %}
-      {% endif %}
-
-    <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }} test</a></li> -->
-    {% endfor %}
-
-      <li> <a href="http://google.com"><span class="nav__sub-title">{{ site.title }}</span></a>
-    {% for nav in posts %}
-      <li> <a href="http://google.com"><span class="nav__sub-title">{{ site.title }}</span></a>
-
+    {% for nav in navigation %}
+      <li>
         {% if nav.url %}
           {% comment %} internal/external URL check {% endcomment %}
           {% if nav.url contains "://" %}
@@ -38,10 +15,24 @@
             {% assign nav_url = nav.url | relative_url %}
           {% endif %}
 
+          <!-- Title -->
           <a href="{{ nav_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
-          <span class="nav__sub-title">{{ nav.title }} testing</span>
+          <span class="nav__sub-title">{{ nav.title }} </span>
         {% endif %}
+
+        {% if nav.title == 'Repositories' %}
+          {% for repo in site.github.public_repositories %}
+            <!-- if name doesn't contain .github.io -->
+            {% unless repo.name contains 'robotics-tue.github.io' %}
+              <li><a href="{{ repo.html_url }}" class="">{{ repo.name }} </a></li>
+              <li><a href="{{ repo.wiki_url }}" class="">{{ repo.wiki_url }} </a></li>
+            {% endunless %}
+
+          {% endfor %}
+        {% endif %}       
+
+
 
         {% if nav.children != null %}
         <ul>
@@ -59,8 +50,8 @@
             {% else %}
               {% assign active = "" %}
             {% endif %}
-
-            <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }} test</a></li>
+            <!-- Child Title -->
+            <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }} </a></li>
           {% endfor %}
         </ul>
         {% endif %}
