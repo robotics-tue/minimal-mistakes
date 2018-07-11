@@ -1,5 +1,5 @@
 docs:
-  - title: Getting Started {{ page.name }}
+  - title: Getting Started
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
