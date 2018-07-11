@@ -7,7 +7,7 @@
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
 
-    {% for repo in site.public_repositories %}
+    {% for repo in site.github.public_repositories %}
       <li> <a href="http://google.com"><span class="nav__sub-title">{{ repo.name }}</span></a>
 <!--       {% comment %} internal/external URL check {% endcomment %}
       {% if child.url contains "://" %}
