@@ -1,65 +1,238 @@
-- table: 1
+# Fill in your details to assign yourself a desk.
+
+
+# =========== STAFF DESKS ===========
+
+- desk: 1
   name:  Jesse Scholtes
   email: j dot scholtes at tue dot nl 
   function: Project Management
   project: Various
-- table: 2
+
+- desk: 2
   name:  Roy Cobbenhagen  
   email: a dot t dot j dot r dot cobbenhagen (at) tue dot nl   
   function: PhD Researcher  
   project:
-- table: 3
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 4
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 5
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 6
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 7
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 8
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 9
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 10
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 11
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 12
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
-- table: 1
-  name:  Jesse Scholtes
-  email: j dot scholtes at tue dot nl 
-  function: Project Management
-  project: Various
+
+- desk: 3
+  name: Yanick Douven  
+  email: y dot g dot m dot douven (at) tue dot nl 
+  function: PhD Researcher  
+  project: EurEyeCase 
+
+- desk: 4
+  name: Wouter Kuijpers  
+  email: W dot J dot P dot Kuijpers (at) tue dot nl  
+  function: PhD Researcher  
+  project: LED it Be 50%  
+
+- desk: 5
+  name:  
+  email: 
+  function: 
+  project: 
+
+- desk: 6
+  name: Jos Elfring 
+  email: 
+  function: Part-Time Researcher  
+  project: TNO
+
+- desk: 7
+  name: Marzieh Dolatabadi
+  email: PhD Researcher
+  function: PhD Researcher  
+  project: autopilot   
+
+- desk: 8
+  name:  
+  email: 
+  function: 
+  project: 
+
+- desk: 9
+  name: Wouter Houtman 
+  email: W dot Houtman (at) tue dot nl
+  function: PhD Researcher
+  project: RoPod
+
+- desk: 10
+  name: Cesar A. Lopez M.
+  email: c dot a dot lopez dot martinez dot (at) tue dot nl
+  function: Postdoctoral Researcher
+  project: RoPod
+
+# =========== FLEX DESKS @HOME ===========
+
+- desk: 11
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United @Home
+
+- desk: 12
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United @Home
+
+- desk: 13
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United @Home
+
+- desk: 14
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United @Home
+
+# =========== STUDENT DESKS ===========
+
+- desk: 15
+  name: Rik van der Struijk
+  email: 
+  function: Master Thesis
+  project: Constrained WBC Solved Using QP With Multiple Simultaneous Tasks
+
+- desk: 16
+  name: Stefan Driessen
+  email: s.p.h.driessen@student.tue.nl
+  function: Master Thesis 
+  project: Dynamic obstacle avoidance
+
+- desk: 17
+  name: Menno Bouma
+  email: m.bouma@student.tue.nl 
+  function: Master Thesis 
+  project: Trajectory Control for Mechanical Systems with Simultaneous Impacts  
+
+- desk: 18
+  name:  Melvin de Wildt  
+  email: m.s.d.wildt@student.tue.nl 
+  function: Master Thesis 
+  project: Path planning on the ROPOD 
+
+- desk: 19
+  name:  Casper Beumer  
+  email: c.t.j.beumer@student.tue.nl  
+  function: Master Thesis 
+  project: Trajectory Control for Mechanical Systems with Simultaneous Impacts  
+
+- desk: 20
+  name:  Tim Coerver
+  email: 
+  function: Master Thesis 
+  project: Path planning for autonomous vitrectomy
+
+- desk: 21
+  name: Pieter de Groot
+  email: p.j.m.d.groot@student.tue.nl 
+  function: Master Thesis 
+  project: Dynamical Wall-Following for an Autonomous Robot 
+
+- desk: 22
+  name:  Chiel Kengen 
+  email: c.m.kengen@student.tue.nl  
+  function: Master Thesis 
+  project: Improving the Shooting Skill of a MSL Soccer Robot 
+
+- desk: 23
+  name:  Mian Wei 
+  email: m.wei@student.tue.nl 
+  function: Master Thesis 
+  project: 
+
+- desk: 24
+  name:  Bas Büthker
+  email: b.buthker@student.tue.nl
+  function: Master Thesis 
+  project: 
+
+- desk: 25
+  name:  
+  email: 
+  function: 
+  project: 
+
+- desk: 26
+  name: Martin Plantinga
+  email: 
+  function: Master Thesis 
+  project: CNN
+
+- desk: 27
+  name:  
+  email: 
+  function:
+  project: 
+
+- desk: 28
+  name:  Martijn Bos
+  email: 
+  function: Master Thesis 
+  project: Geometric Linearization
+
+- desk: 29
+  name:  
+  email: 
+  function:  
+  project: 
+
+- desk: 30
+  name:  
+  email: 
+  function:  
+  project: 
+
+- desk: 31
+  name: Teun Bosch
+  email: t.j.bosch@student.tue.nl 
+  function: Master Thesis 
+  project: Dynamic Robot Collision Avoidance
+
+- desk: 32
+  name:  
+  email: 
+  function: 
+  project: 
+
+- desk: 33
+  name: Ilias Aouaj
+  email: i.aouaj@student.tue.nl
+  function: Master Thesis 
+  project: 
+
+- desk: 34
+  name: 
+  email: 
+  function: 
+  project: 
+
+- desk: 35
+  name: Giovanni Franzese
+  email: g.franzese@student.tue.nl
+  function: Master Thesis 
+  project: Motion Planning
+
+# =========== FLEX DESKS MSL ===========
+
+- desk: 36
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United MSL
+
+- desk: 37
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United MSL
+
+- desk: 38
+  name: Flex Desk
+  email: 
+  function: Tech United Flex Desk
+  project: Tech United MSL
