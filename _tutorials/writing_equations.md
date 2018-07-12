@@ -1,7 +1,7 @@
 ---
 title: Markdown Quick Guide
 ---
-Below you will find a quick reference guide for writing articles in Markdown.
+Below you will find a quick reference guide for writing pages in Markdown. A more extense tutorial can be found at [www.markdowntutorial.com](www.markdowntutorial.com)
 
 # Headers
 ```
