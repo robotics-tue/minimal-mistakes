@@ -5,6 +5,8 @@ docs:
     url: /repositories/
   - title: Tutorials
     url: /tutorials/
+  - title: Papers
+    url: /papers/
     # children:
     #   - title: "Quick-Start Guide"
     #     url: /docs/quick-start-guide/

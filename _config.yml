@@ -136,7 +136,6 @@ author:
 include:
   - .htaccess
   - _pages
-  - _tutorials
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -256,6 +255,16 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:name
+  repositories:
+    output: true
+    permalink: /:collection/:name
+  papers:
+    output: true
+    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -287,7 +296,21 @@ defaults:
   # _tutorials
   - scope:
       path: ""
-      type: pages
+      type: tutorials
+    values:
+      layout: tutorials_layout
+      author_profile: false
+  # _repositories
+  - scope:
+      path: ""
+      type: repositories
+    values:
+      layout: single
+      author_profile: false
+  # _papers
+  - scope:
+      path: ""
+      type: papers
     values:
       layout: single
       author_profile: false
