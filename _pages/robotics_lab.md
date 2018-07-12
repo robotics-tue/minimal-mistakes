@@ -4,12 +4,13 @@ permalink: /robotics_lab/
 layout: tutorials_layout
 ---
 # Getting started in the robotics lab
-- Announce your presence to both your peers as to the staff.
-- Request access to this repository to one of the staff members.
-- Pick a free desk and indicate your choice as described in [People & Desks](#people--desks)
-- Get yourself subscribed on the robotics-lab Googlegroups mailinglist (ask Wouter Houtman about this)
-- Make yourself familiar with the keys to the lab and testlab, the coffee machine, etc. If you have any questions, ask people and put the additional info on this Wiki!
-- Ask Thea for acces to the lab.
+- Introduce yourself to both your peers as to the staff.
+- Request one of the staff members:
+    - access to this repository
+    - subscription to the robotics-lab Googlegroups mailing list
+- Pick a free desk and indicate your choice, as described in [People & Desks](#people--desks).
+- Make yourself familiar with the keys to the lab and testlab, the coffee machine, etc. 
+- If you have any questions, ask people and, if necessary, update this website with the new/updated information. Go to the [site_maintenance](site maintenance) section for more information on how to update the contents of this site.
 
 # People & Desks
 
@@ -37,9 +38,6 @@ In order to assign a (free) desk to yourself, modify the following file: [roboti
 </table>
 
 {% include image name="desk_distribution_map.png" caption="caption" %}
-
-
-
 
 # Robotics Lab Printer
 Students and Employees who work in the Robotics Lab can make use of the Robotics Lab printer. Intallation instructions can be found [here](/tutorials/printer).
