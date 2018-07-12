@@ -20,41 +20,6 @@
         {% else %}
           <span class="nav__sub-title">{{ nav.title }} </span>
         {% endif %}
-
-        {% if nav.title == 'Repositories' %}
-          {% for repo in site.github.public_repositories %}
-            <!-- if name doesn't contain .github.io -->
-            {% unless repo.name contains '.github.io' %}
-              <li><a href="{{ repo.html_url }}" class="nav__sub-title_child">{{ repo.name }} </a></li>
-              <li><a href="{{ repo.wiki_url }}" class="nav__sub-title_child">{{ repo.wiki_url }} </a></li>
-            {% endunless %}
-
-          {% endfor %}
-        {% endif %}       
-
-
-
-        {% if nav.children != null %}
-        <ul>
-          {% for child in nav.children %}
-            {% comment %} internal/external URL check {% endcomment %}
-            {% if child.url contains "://" %}
-              {% assign child_url = child.url %}
-            {% else %}
-              {% assign child_url = child.url | relative_url %}
-            {% endif %}
-
-            {% comment %} set "active" class on current page {% endcomment %}
-            {% if child.url == page.url %}
-              {% assign active = "active" %}
-            {% else %}
-              {% assign active = "" %}
-            {% endif %}
-            <!-- Child Title -->
-            <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }} </a></li>
-          {% endfor %}
-        </ul>
-        {% endif %}
       </li>
     {% endfor %}
   </ul>

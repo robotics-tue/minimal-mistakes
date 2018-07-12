@@ -23,8 +23,8 @@ description              : "Eindhoven University of Technology"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : /assets/images/logo-tue.png# path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+teaser                   : #/assets/images/logo-tue.png# path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -262,7 +262,7 @@ collections:
   repositories:
     output: true
     permalink: /:collection/:name
-  papers:
+  publications:
     output: true
     permalink: /:collection/:name
 
@@ -307,10 +307,10 @@ defaults:
     values:
       layout: single
       author_profile: false
-  # _papers
+  # _publications
   - scope:
-      path: ""
-      type: papers
+      path: "_publications"
+      type: publications
     values:
       layout: single
       author_profile: false

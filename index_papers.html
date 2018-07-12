@@ -1,12 +1,12 @@
 ---
-title: Papers
-permalink: /papers/
+title: Publications
+permalink: /publications/
 ---
 
 This is a list of the available tutorials:
-{% for paper in site.papers %}
+{% for publication in site.publications %}
     <ul>
-        <li><a href="{{paper.url}}">{{paper.title}}</a> </li>
+        <li><a href="{{publication.url}}">{{publication.title}}</a> </li>
     </ul>
 {% endfor %}
 <br>
@@ -15,6 +15,6 @@ This is a list of the available tutorials:
 <hr>
 <h1>How to contribute?</h1>
 <h3>Adding tutorials</h3>
-Add a new paper by including your tutorial in Markdown format to the <span style="font-family:Courier New, Courier, monospace">_tutorials</span> directory of the <a href="https://github.com/robotics-tue/robotics-tue.github.io">robotics-tue.github.io</a> repository.
+Add a new publication by including your tutorial in Markdown format to the <span style="font-family:Courier New, Courier, monospace">_tutorials</span> directory of the <a href="https://github.com/robotics-tue/robotics-tue.github.io">robotics-tue.github.io</a> repository.
 <h3>Updating tutorials</h3>
 Modify a tutorial by updating the Markdown content of its file in the <span style="font-family:Courier New, Courier, monospace">_tutorials</span> directory of the <a href="https://github.com/robotics-tue/robotics-tue.github.io">robotics-tue.github.io</a> repository.
