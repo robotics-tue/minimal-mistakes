@@ -1,6 +1,10 @@
 docs:
-  - title: Robotics TU/e
+  - title: About
+    url: /about/
   - title: Repositories
+    url: /repositories/
+  - title: Tutorials
+    url: /tutorials/
     # children:
     #   - title: "Quick-Start Guide"
     #     url: /docs/quick-start-guide/
