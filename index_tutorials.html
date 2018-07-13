@@ -3,12 +3,11 @@ title: Tutorials
 permalink: /tutorials/
 layout: page_without_toc
 ---
-
-This is a list of the available tutorials:
-{% for tutorial in site.tutorials %}
-    <ul>
-        <li><a href="{{tutorial.url}}">{{tutorial.title}}</a> </li>
-    </ul>
-{% endfor %}
-<br>
-<br>
+<p>
+  This is a list of the available tutorials:
+  <ul>
+  {% for tutorial in site.tutorials %}
+          <li><a href="{{tutorial.url}}">{{tutorial.title}}</a> </li>
+  {% endfor %}
+  </ul>
+</p>
