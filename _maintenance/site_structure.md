@@ -1,5 +1,6 @@
 ---
 title: Site Structure
+layout: page_with_toc
 description: This post describes the structure of the robotics.tue.nl website
 ---
 
