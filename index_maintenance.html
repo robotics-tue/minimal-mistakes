@@ -15,36 +15,3 @@ permalink: /site_maintenance/
   {% endfor %}
   </ul>
 </p>
-
-<h1>Introduction</h1>
-<p>
-This section describes how this website is structured and gives guidelines to maintain it.
-</p>
-<p>
-This website has been created with <a href="https://pages.github.com">Github pages</a>and is hosted on <a href="http://www.github.com">github.com</a>. It uses <a href="https://jekyllrb.com/">Jekyll's platform</a> to transform text files into HTML websites. This allows the users to focus on the content, rather than on the site's source code. Pages are written in the very simple Markdown language (but can also be HTML files).
-</p>
-
-<h1>Site Structure</h1>
-<p>
-The website contains the following sections: 
-<a href="/about">About</a>, <a href="/repositories">Repositories</a>, <a href="/tutorials">Tutorials</a>, <a href="/publications">Publications</a>, <a href="/robotics_lab">Robotics Lab</a> and <a href="">Site Maintenance</a>. These sections are added to the navigation bar by their inclusion in the <a href="https://github.com/robotics-tue/robotics-tue.github.io/blob/master/_data/navigation.yml">data/navigation.yml</a> file. Each section is described by a list entry composed of a <texttt>title</texttt> and an <texttt>url</texttt>. To add or remove a section from the navigation bar, add or remove the corresponding entry of the file. <em>Note that this doesn't automatically add or remove a page, it only adds or removes the entry in the navigation bar.</em>
-</p>
-
-<h2>Index Files</h2>
-<p>
-	The main page of the website is <texttt>index.html</texttt>. When navigating to this website, this is the first page you see. 
-</p>
-<p>
-	Each section also has an index file with followin naming convention <texttt>index_&ltsection_name&gt.html</texttt>, e.g. <texttt>index_maintenance.html</texttt> for this section. Both the main index as the section index HTML files are located in the root directory of the repository (i.e. <texttt>/</texttt>). 
-</p>
-<p>
-	The reason for having an index file per section is to be able to loop over the different pages of each section with the aid of the <a href="https://shopify.github.io/liquid/">liquid template language</a>. In the case of the <a href="/tutorials">Tutorials</a> section, for example, there is an index file (<texttt>index_tutorials.html</texttt>) that serves as compilation site for each of the different tutorials. The subpages of these tutorials are located in the <texttt>_tutorials/</texttt> directory. The <texttt>index_tutorials.html</texttt> site loops over the titles of each of the tutorials to display them. More about these for loops below. 
-</p>
-<h2>Content</h2>
-<p>
-	As mentioned above, each section contains an index page that refers to its different subpages. These subpages are located in a directory that has the following naming convention: <texttt>_&ltsection-name&gt</texttt>, e.g. <texttt>_tutorials</texttt>. These subpages are written in Markdown format (see <a href="/tutorials/markdown-quick-guide">Markdown Quick Guide</a>). It is in these pages where content can be added.
-</p>
-
-<p>
-	Although these files are written in HTML, they contain <em>Front Matter</em>, i.e. a preamble with key-value pairs that defines 
-</p>
