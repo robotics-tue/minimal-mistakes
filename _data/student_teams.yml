@@ -1,0 +1,29 @@
+# ==================================================
+# INSTRUCTIONS
+# ==================================================
+# Mind both the tabs as the desk order!!
+# Make sure that you put it in the following format:
+# 
+# - team_name: name of the student team
+#   description: description of the team
+#   website: url
+#   repository: repository url
+#   wiki: repository wiki url
+#   members: member names
+# ==================================================
+
+
+
+- team_name: Tech United Middle Size League
+  description: Write the description of the project here.
+  website: http://www.techunited.com
+  repository: https://github.com/robotics-tue/tech-united-msl
+  wiki: https://github.com/robotics-tue/tech-united-msl/wiki
+  members: 
+
+- team_name: Tech United @Home
+  description: Write the description of the project here.
+  website: http://www.techunited.com
+  repository: https://github.com/robotics-tue/tech-united-home
+  wiki: https://github.com/robotics-tue/tech-united-home/wiki
+  members:
