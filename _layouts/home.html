@@ -9,10 +9,6 @@ layout: archive
 
 This is a list of the posts:<br>
 
-{% for post in site.posts %}
-	{{post.title}}<br>
-{% endfor %}
-
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}
