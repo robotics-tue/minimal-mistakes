@@ -1,6 +1,9 @@
 ---
-title: "Installing the Robotics Lab Printer"
+title: Robotics Lab Printer
+layout: page_with_toc
 ---
+
+Students and Employees who work in the Robotics Lab can make use of the Robotics Lab printer. Intallation instructions can be found [here](/tutorials/printer).
 
 # Ubuntu
 1. Make sure the printer is turned on and not in error mode!

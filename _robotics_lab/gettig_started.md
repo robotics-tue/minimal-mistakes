@@ -1,6 +1,5 @@
 ---
 title: Robotics Lab
-permalink: /robotics_lab/
 layout: tutorials_layout
 ---
 # Getting started in the robotics lab
@@ -39,6 +38,5 @@ In order to assign a (free) desk to yourself, modify the following file: [roboti
 
 {% include image name="desk_distribution_map.png" caption="caption" %}
 
-# Robotics Lab Printer
-Students and Employees who work in the Robotics Lab can make use of the Robotics Lab printer. Intallation instructions can be found [here](/tutorials/printer).
+
 
