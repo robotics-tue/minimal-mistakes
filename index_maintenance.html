@@ -4,6 +4,17 @@ layout: page_with_toc
 permalink: /site_maintenance/
 ---
 
+<p>
+  This is a list of the available tutorials:
+  <ul>
+  {% for item in site.maintenance %}
+      <li><a href="{{item.url}}">{{item.title}}</a> </li>
+      {% if item.description %}
+      <br>Description: {{ item.description }}
+      {% endif %}
+  {% endfor %}
+  </ul>
+</p>
 
 <h1>Introduction</h1>
 <p>
