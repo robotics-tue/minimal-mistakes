@@ -14,3 +14,6 @@ This is a list of the research projects. Note that some projects may have a priv
     <hr>
     {% endfor %}
 </ul>
+
+
+Modifications to this content can be done in [this](https://github.com/robotics-tue/robotics-tue.github.io/tree/master/_data/research_projects.yml) `yaml` file.

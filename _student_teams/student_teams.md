@@ -14,3 +14,5 @@ This is a list of the student teams.
     <hr>
     {% endfor %}
 </ul>
+
+Modifications to this content can be done in [this](https://github.com/robotics-tue/robotics-tue.github.io/tree/master/_data/student_teams.yml) `yaml` file.
