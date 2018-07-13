@@ -18,8 +18,10 @@ The most important files and directories are displayed below in a directory tree
 ```
 - robotics-tue.github.io
   |--   _data                     # contains yml files with data
-         |--  navigation.yml            # list of titles & urls for the nav bar      
-         |--  robotics_lab_members.yml  # list of members of the robotics lab
+         |-- navigation.yml            # list of titles & urls for the nav bar      
+         |-- robotics_lab_members.yml  # list of members of the robotics lab
+         |-- research_projects.yml     # list of research projects
+         |-- student_teams.yml         # list of student teams
   |--   _pages                    # contains md files with content
   |--   _posts                    # contains md files with posts
   |--   _maintenance              # contains md files for the maintenance section
