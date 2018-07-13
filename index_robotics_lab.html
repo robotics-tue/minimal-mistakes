@@ -4,13 +4,17 @@ layout: page_without_toc
 permalink: /robotics_lab/
 ---
 
+<!-- Sort in the order determined by the key value 'order' -->
+{% assign items = site.robotics_lab | sort: 'order' %}
+
+
 <p>
   Contents:
   <ul>
-  {% for item in site.robotics_lab %}
+  {% for item in items %}
       <li><a href="{{item.url}}">{{item.title}}</a>
       {% if item.description %}
-      <br><i>Description: {{ item.description }}</i>
+      <br>&nbsp;<i>{{ item.description }}</i>
       {% else %}
       <br>
       {% endif %}

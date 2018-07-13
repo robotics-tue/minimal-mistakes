@@ -1,0 +1,51 @@
+# ==================================================
+# INSTRUCTIONS
+# ==================================================
+# Mind both the tabs as the desk order!!
+# Make sure that you put it in the following format:
+# 
+# - project_name: project name
+#   description: description of the project
+#   repository: link to the repository
+#   wiki: link to the wiki of the repository
+#   members: names of the members
+#   students: names of the students involved
+# ==================================================
+
+
+
+- project_name: RoPod
+  description: Write the description of the project here.
+  repository: https://github.com/robotics-tue/ropod-project
+  wiki: https://github.com/robotics-tue/ropod-project/wiki
+  members: Cesar Lopez Martinez, Wouter Houtman
+  students:
+
+- project_name: Fast Project
+  description: Write the description of the project here.
+  repository: https://github.com/robotics-tue/fast-project
+  wiki: https://github.com/robotics-tue/fast-project/wiki
+  members: Bob Hendrikx
+  students:
+
+- project_name: Autopilot
+  description: Write the description of the project here.
+  repository: https://github.com/robotics-tue/autopilot-project
+  wiki: https://github.com/robotics-tue/autopilot-project/wiki
+  members: Marzieh Dolatabadi
+  students:
+
+- project_name: EurEyeCase
+  description: Write the description of the project here.
+  repository: https://github.com/robotics-tue/eureyecase-project
+  wiki: https://github.com/robotics-tue/eureyecase-project/wiki
+  members: Yanick Douven
+  students:
+
+- project_name: LED it Be 50%
+  description: Write the description of the project here.
+  repository: https://github.com/robotics-tue/led-it-be-50-project
+  wiki: https://github.com/robotics-tue/led-it-be-50-project/wiki
+  members: Wouter Kuijpers
+  students:
+

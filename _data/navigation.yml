@@ -3,10 +3,14 @@ docs:
     url: /about/
   - title: Repositories
     url: /repositories/
-  - title: Tutorials
-    url: /tutorials/
   - title: Publications
     url: /publications/
+  - title: Research Projects
+    url: /research_projects
+  - title: Courses
+    url: /courses
+  - title: Tutorials
+    url: /tutorials/
   - title: Robotics Lab
     url: /robotics_lab/
   - title: Site Maintenance

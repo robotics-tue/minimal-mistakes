@@ -1,0 +1,12 @@
+---
+title: Student Teams
+layout: page_without_toc
+permalink: /student_teams/
+---
+
+<!-- Sort in the order determined by the key value 'order' -->
+{% assign items = site.student_teams %}
+
+{% for item in items %}
+  {{ item.content }}
+{% endfor %}

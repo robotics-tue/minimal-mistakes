@@ -1,0 +1,11 @@
+---
+title: Research Projects
+layout: page_without_toc
+permalink: /research_projects/
+---
+
+{% assign items = site.research_projects %}
+
+{% for item in items %}
+  {{ item.content }}
+{% endfor %}

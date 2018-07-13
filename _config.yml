@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -103,7 +103,7 @@ author:
   name             : "Control Systems Technology Group"
   avatar           : /assets/images/logo-tue.png# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"Eindhoven University of Technology"
-  location         : "Somewhere"
+  location         : "Eindhoven"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -136,6 +136,9 @@ author:
 include:
   - .htaccess
   - _pages
+  - _tutorials
+  - _robotics_lab
+  - _
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -256,7 +259,7 @@ compress_html:
     envs: development
 
 collections:
-  tutorials:
+  about:
     output: true
     permalink: /:collection/:name
   repositories:
@@ -265,10 +268,22 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
-  maintenance:
+  research_projects:
+    output: true  
+    permalink: /:collection/:name
+  courses:
+    output: true
+    permalink: /:collection/:name
+  tutorials:
     output: true
     permalink: /:collection/:name
   robotics_lab:
+    output: true
+    permalink: /:collection/:name
+  student_teams:
+    output: true
+    permalink: /:collection/:name
+  maintenance:
     output: true
     permalink: /:collection/:name
 
@@ -280,7 +295,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
@@ -297,40 +312,62 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: page_with_toc
       author_profile: false
-  # _tutorials
+  # _about
   - scope:
       path: ""
-      type: tutorials
+      type: about
     values:
-      layout: tutorials_layout
-      author_profile: false
-  # _repositories
-  - scope:
-      path: ""
-      type: repositories
-    values:
-      layout: single
+      layout: page_with_toc
       author_profile: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: page_with_toc
       author_profile: false
-  # _maintenance
+  # _research_projects
   - scope:
       path: ""
-      type: maintenance
+      type: research_projects
     values:
-      layout: single
+      layout: page_with_toc
+      author_profile: false
+  # _courses
+  - scope:
+      path: ""
+      type: courses
+    values:
+      layout: page_with_toc
+      author_profile: false
+# _tutorials
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: page_with_toc
       author_profile: false
   # _robotics_lab
   - scope:
       path: ""
       type: robotics_lab
     values:
-      layout: single
+      layout: page_with_toc
       author_profile: false
+  # _student_teams
+  - scope:
+      path: ""
+      type: student_teams
+    values:
+      layout: page_with_toc
+      author_profile: false
+  # _maintenance
+  - scope:
+      path: ""
+      type: maintenance
+    values:
+      layout: page_with_toc
+      author_profile: false
+

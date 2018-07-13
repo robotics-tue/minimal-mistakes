@@ -10,7 +10,7 @@ permalink: /site_maintenance/
   {% for item in site.maintenance %}
       <li><a href="{{item.url}}">{{item.title}}</a>
       {% if item.description %}
-      <br><i>Description: {{ item.description }}</i>
+      <br><i>{{ item.description }}</i>
       {% else %}
       <br>
       {% endif %}
