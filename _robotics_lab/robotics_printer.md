@@ -1,6 +1,8 @@
 ---
 title: Robotics Lab Printer
 layout: page_with_toc
+description: Installation instructions for the robotics lab printer.
+order: 2
 ---
 
 Students and Employees who work in the Robotics Lab can make use of the Robotics Lab printer. Intallation instructions can be found [here](/tutorials/printer).

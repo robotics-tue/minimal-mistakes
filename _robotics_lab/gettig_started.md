@@ -1,8 +1,10 @@
 ---
-title: Robotics Lab
-layout: tutorials_layout
+title: Getting started
+description: Useful infromtion for students and staff that start working in the Robotics Lab.
+order: 1
 ---
-# Getting started in the robotics lab
+
+# First steps
 - Introduce yourself to both your peers as to the staff.
 - Request one of the staff members:
     - access to this repository
