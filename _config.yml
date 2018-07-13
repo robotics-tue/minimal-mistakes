@@ -265,6 +265,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:name
+  maintenance:
+    output: true
+    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -309,8 +312,15 @@ defaults:
       author_profile: false
   # _publications
   - scope:
-      path: "_publications"
+      path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: false
+  # _publications
+  - scope:
+      path: ""
+      type: maintenance
     values:
       layout: single
       author_profile: false
