@@ -20,13 +20,15 @@ The following table indicates which desks are assigned to whom. A map of the dis
 In order to assign a (free) desk to yourself, modify the following file: [robotics_lab_members.yml](https://github.com/robotics-tue/robotics-tue.github.io/blob/master/_data/robotics_lab_members.yml).
 
 <table style="table">
-    <tr>
-        <th>Desk</th>
-        <th>Name</th>
-        <th>E-mail address</th>
-        <th>Function</th>
-        <th>Project</th>
-    </tr>
+    <thead>
+        <tr>
+            <th>Desk</th>
+            <th>Name</th>
+            <th>E-mail address</th>
+            <th>Function</th>
+            <th>Project</th>
+        </tr>
+    </thead>
     {% for member in site.data.robotics_lab_members %}
     <tr>
         <td>{{member.desk}}</td>
