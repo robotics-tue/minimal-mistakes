@@ -5,12 +5,12 @@
 # 2. Make sure that the contents is cast in the 
 #    following format:
 # 
-# - project_name: project name
-#   description: description of the project
-#   repository: link to the repository
-#   wiki: link to the wiki of the repository
-#   members: names of the members
-#   students: names of the students involved
+# - project_name: <project name>
+#   description: <description of the project>
+#   repository: <link to the repository>
+#   wiki: <link to the wiki of the repository>
+#   members: <names of the members>
+#   students: <names of the students involved>
 # ==================================================
 
 
